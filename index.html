@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- TODO META DESCRIPTION -->
+  <meta name="description" content="Frontend Mentor social media dashboard with theme switcher using CSS grid">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social Media Dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+  <div class="page-wrap">
+    <header>
+      <div class="top-header-cont">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>  
+      <div class="theme-container flex">
+        <p class="current-theme">Dark Mode</p>
+        <label for="theme-switch" class="theme-switch" aria-label="Toggle dark or light mode">
+          <input type="checkbox" id="theme-switch">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </header>
+    
+    <main>
+      <section class="main-grid">
+        <!-- social item -->
+        <div class="social-item flex facebook">
+            <h3 class="flex"><img src="images/icon-facebook.svg" alt="facebook icon">@nathanf</h3>
+            <div class="social-item-center">
+              <p class="followers-count">1987</p>
+              <p class="social-followers">Followers</p>
+            </div>
+            <div class="followers-change-today flex green">
+              <img src="images/icon-up.svg" alt="followers increased">
+              <p><span class="followers-today">12</span> Today</p>
+            </div>
+        </div>
+        <!-- social item -->
+        <div class="social-item flex twitter">
+          <h3 class="flex"><img src="images/icon-twitter.svg" alt="twitter icon">@nathanf</h3>
+          <div class="social-item-center">
+            <p class="followers-count">1044</p>
+            <p class="social-followers">Followers</p>
+          </div>
+          <div class="followers-change-today flex green">
+            <img src="images/icon-up.svg" alt="followers increased">
+            <p><span
+                class="followers-today">99</span> Today</p>
+          </div>
+        </div>
+        <!-- social item -->
+        <div class="social-item flex instagram">
+          <h3 class="flex"><img src="images/icon-instagram.svg" alt="instagram icon">@realnathanf</h3>
+          <div class="social-item-center">
+            <p class="followers-count">11k</p>
+            <p class="social-followers">Followers</p>        
+          </div>
+          <div class="followers-change-today flex green">
+            <img src="images/icon-up.svg" alt="followers increased">
+            <p><span
+                class="followers-today">1099</span> Today</p>
+          </div>
+        </div>
+        <!-- social item -->
+        <div class="social-item flex youtube">
+          <h3 class="flex"><img src="images/icon-youtube.svg" alt="youtube icon">Nathan F.</h3>
+          <div class="social-item-center">
+            <p class="followers-count">8239</p>
+            <p class="social-followers">Subscribers</p>        
+          </div>
+          <div class="followers-change-today flex red">
+            <img src="images/icon-down.svg" alt="followers decreased">
+            <p><span
+                class="followers-today">144</span> Today</p>
+          </div>
+        </div>
+      </section>
+    
+      <section class="overview-today-section">
+        <h2>Overview - Today</h2>
+        <div class="overview-today-section-wrap">
+          <!-- overview today item -->
+          <div class="overview-today-item">
+            <div class="today-item-top flex">
+              <h3>Page Views</h3>
+              <img src="images/icon-facebook.svg" alt="facebook icon">
+            </div>
+            <div class="today-item-bottom flex">
+              <p class="today-item-count">87</p>
+              <div class="percentage-wrap flex green">
+                <img src="images/icon-up.svg" alt="page views increased">
+                <p class="today-item-percentage">3%</p>
+              </div>
+            </div>
+          </div>
+          <!-- overview today item -->
+          <div class="overview-today-item">
+            <div class="today-item-top flex">
+              <h3>Likes</h3>
+              <img src="images/icon-facebook.svg" alt="facebook icon">
+            </div>
+            <div class="today-item-bottom flex">
+              <p class="today-item-count">52</p>
+              <div class="percentage-wrap flex red">
+                <img src="images/icon-down.svg" alt="likes decreased">
+                <p class="today-item-percentage">2%</p>
+              </div>
+            </div>
+          </div>
+          <!-- overview today item -->
+          <div class="overview-today-item">
+            <div class="today-item-top flex">
+              <h3>Likes</h3>
+              <img src="images/icon-instagram.svg" alt="instagram icon">
+            </div>
+            <div class="today-item-bottom flex">
+              <p class="today-item-count">5462</p>
+              <div class="percentage-wrap flex green">
+                <img src="images/icon-up.svg" alt="likes increased">
+                <p class="today-item-percentage">2257%</p>
+              </div>
+            </div>
+          </div>
+          <!-- overview today item -->
+          <div class="overview-today-item">
+            <div class="today-item-top flex">
+              <h3>Profile Views</h3>
+              <img src="images/icon-instagram.svg" alt="instagram icon">
+            </div>
+            <div class="today-item-bottom flex">
+              <p class="today-item-count">52k</p>
+              <div class="percentage-wrap flex green">
+                <img src="images/icon-up.svg" alt="profile views increased">
+                <p class="today-item-percentage">1375%</p>
+              </div>
+            </div>
+          </div>
+          <!-- overview today item -->
+          <div class="overview-today-item">
+            <div class="today-item-top flex">
+              <h3>Retweets</h3>
+              <img src="images/icon-twitter.svg" alt="twitter icon">
+            </div>
+            <div class="today-item-bottom flex">
+              <p class="today-item-count">117</p>
+              <div class="percentage-wrap flex green">
+                <img src="images/icon-up.svg" alt="retweets increased">
+                <p class="today-item-percentage">303%</p>
+              </div>
+            </div>
+          </div>
+          <!-- overview today item -->
+          <div class="overview-today-item">
+            <div class="today-item-top flex">
+              <h3>Likes</h3>
+              <img src="images/icon-twitter.svg" alt="twitter icon">
+            </div>
+            <div class="today-item-bottom flex">
+              <p class="today-item-count">507</p>
+              <div class="percentage-wrap flex green">
+                <img src="images/icon-up.svg" alt="likes increased">
+                <p class="today-item-percentage">553%</p>
+              </div>        
+            </div>
+          </div>
+          <!-- overview today item -->
+          <div class="overview-today-item">
+            <div class="today-item-top flex">
+              <h3>Likes</h3>
+              <img src="images/icon-youtube.svg" alt="youtube icon">
+            </div>
+            <div class="today-item-bottom flex">
+              <p class="today-item-count">107</p>
+              <div class="percentage-wrap flex red">
+                <img src="images/icon-down.svg" alt="likes decreased">
+                <p class="today-item-percentage">19%</p>
+              </div>
+            </div>
+          </div>
+          <!-- overview today item -->
+          <div class="overview-today-item">
+            <div class="today-item-top flex">
+              <h3>Total Views</h3>
+              <img src="images/icon-youtube.svg" alt="youtube icon">
+            </div>
+            <div class="today-item-bottom flex">
+              <p class="today-item-count">1407</p>
+              <div class="percentage-wrap flex red">
+                <img src="images/icon-down.svg" alt="total views decreased">
+                <p class="today-item-percentage">12%</p>
+              </div>
+            </div>
+          </div>        
+        </div>
+      </section>
+    </main>
+    
+    <Footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H/hub/social-media-dashboard-with-theme-switcher-hTGFCENsB" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+      Coded by <a href="#">Alex 👋</a>.
+    </Footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
