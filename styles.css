@@ -313,6 +313,7 @@ input:checked + .slider:before {
 }
 
 .followers-change-today {
+  width: fit-content;
   font-weight: bold;
 }
 
