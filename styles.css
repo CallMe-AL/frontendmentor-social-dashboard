@@ -314,8 +314,12 @@ input:checked + .slider:before {
 
 .followers-change-today {
   font-weight: bold;
-  flex-shrink: 0;
-  min-width: fit-content;
+  /* flex-shrink: 0;
+  min-width: fit-content; */
+}
+
+.followers-change-today p {
+  flex: 1;
 }
 
 .followers-change-today img {
