@@ -312,9 +312,9 @@ input:checked + .slider:before {
   letter-spacing: 5px;
 }
 
-.followers-change-today {
-  font-weight: bold;
+.followers-wrap {
   flex-basis: max-content;
+  font-weight: bold;
 }
 
 .followers-change-today img {
