@@ -313,8 +313,12 @@ input:checked + .slider:before {
 }
 
 .followers-change-today {
-  width: fit-content;
   font-weight: bold;
+}
+
+.followers-change-today p {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .followers-change-today img {
