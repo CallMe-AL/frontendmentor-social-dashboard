@@ -314,15 +314,7 @@ input:checked + .slider:before {
 
 .followers-change-today {
   font-weight: bold;
-  min-width: 80px;
-  /* flex-shrink: 0;
-  min-width: fit-content; */
-}
-
-.followers-change-today p {
-  flex: 1;
-  width: max-content;
-  flex-wrap: nowrap;
+  flex-basis: max-content;
 }
 
 .followers-change-today img {
