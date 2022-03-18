@@ -314,7 +314,7 @@ input:checked + .slider:before {
 
 .followers-change-today {
   font-weight: bold;
-  width: max-content;
+  min-width: 80px;
   /* flex-shrink: 0;
   min-width: fit-content; */
 }
