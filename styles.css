@@ -312,9 +312,13 @@ input:checked + .slider:before {
   letter-spacing: 5px;
 }
 
-.followers-wrap {
-  flex-basis: max-content;
+.followers-change-today {
   font-weight: bold;
+  flex-basis: max-content;
+}
+
+.followers-change-today p {
+  white-space: nowrap;
 }
 
 .followers-change-today img {
