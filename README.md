@@ -51,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-First time implementing a theme switcher! Learned how to make a switch, create different color theme templates, and how to change them and save user preferences. Google lighthouse helped give me ideas to make the toggle switch more accessible, too. Discovered a weird flex issue with paragraphs which was fixed with a simple "nowrap" fix for whitespace. Learned a lot about Dark Theme designs in general from css-tricks (see link below).
+First time implementing a theme switcher! Learned how to make a switch, create different color theme templates and how to change them, and how to save user preferences in localstorage. Google lighthouse helped give me ideas to make the toggle switch more accessible, too. Discovered a weird flex issue with paragraphs which was fixed with a simple "nowrap" fix for whitespace. Learned a lot about Dark Theme designs in general from css-tricks (see link below).
 
 ### Continued development
 
