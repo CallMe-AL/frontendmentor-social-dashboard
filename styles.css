@@ -405,3 +405,11 @@ footer {
   margin-top: auto;
   text-align: center;
 }
+
+.footer-links {
+  transition: opacity 0.3s ease-out;
+}
+
+.footer-links:hover {
+  opacity: 0.7;
+}
